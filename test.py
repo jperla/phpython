@@ -1,3 +1,4 @@
+#!/usr/bin/env python 
 import php
 
 if __name__ == '__main__':
