@@ -1,4 +1,4 @@
 import apps
 import http
 
-from base import load
+from base import create_app

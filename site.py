@@ -2,9 +2,9 @@
 import php
 
 if __name__ == '__main__':
-    port = 8089
+    port = 8054
     print 'Loading server on %s...' % port
-    app = php.create_app('/var/www/nowineed/')
+    app = php.create_app('./website/')
     php.http.server.tornado.start(app, port=port, num_processes=1)
 
 '''
